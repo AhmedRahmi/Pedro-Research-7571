@@ -11,11 +11,11 @@ public class LConstants { // hi james
         ThreeWheelConstants.leftY = -2.618;
         ThreeWheelConstants.rightY = 2.618;
         ThreeWheelConstants.strafeX = 2.618;
-        ThreeWheelConstants.leftEncoder_HardwareMapName = "br";
-        ThreeWheelConstants.rightEncoder_HardwareMapName = "fl";
+        ThreeWheelConstants.leftEncoder_HardwareMapName = "fl";
+        ThreeWheelConstants.rightEncoder_HardwareMapName = "br";
         ThreeWheelConstants.strafeEncoder_HardwareMapName = "fr";
-        ThreeWheelConstants.leftEncoderDirection = Encoder.REVERSE;
-        ThreeWheelConstants.rightEncoderDirection = Encoder.FORWARD;
+        ThreeWheelConstants.leftEncoderDirection = Encoder.FORWARD;
+        ThreeWheelConstants.rightEncoderDirection = Encoder.REVERSE;
         ThreeWheelConstants.strafeEncoderDirection = Encoder.REVERSE;
     }
 }
